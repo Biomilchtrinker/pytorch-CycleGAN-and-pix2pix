@@ -8,4 +8,8 @@ python3 test.py --dataroot ./mydata --name your_experiment_name --model test --n
 python3 train.py --dataroot ./mydata --name your_experiment_name --model cycle_gan --gpu_ids -1 --display_id 1 --n_epochs 2
 
 
+
+new:
 python3 train.py --dataroot ./datasets/ct_hist_scans --name ct_hist_test --model cycle_gan --gpu_ids -1 --display_id 1 --n_epochs 2
+
+cp ./checkpoints/ct_hist_test/latest_net_G_A.pth ./checkpoints/ct_hist_test/latest_net_G.pth
