@@ -16,3 +16,7 @@ cp ./checkpoints/ct_hist_test/latest_net_G_A.pth ./checkpoints/ct_hist_test/late
 
 
 python3 test.py --dataroot ./datasets/ct_hist_scans --name ct_hist_test --model test --no_dropout --gpu_ids -1
+
+
+10 epochs = 1,5h        (400 Bilder pro Seite)
+
