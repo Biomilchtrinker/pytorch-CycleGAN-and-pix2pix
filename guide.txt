@@ -20,3 +20,9 @@ python3 test.py --dataroot ./datasets/ct_hist_scans --name ct_hist_test --model 
 
 10 epochs = 1,5h        (400 Bilder pro Seite)
 
+
+
+für SSH kopieren:
+ds211007@pc01:~$ scp -r ds211007@pc04.fry.lab:~/Desktop/pytorch-CycleGAN-and-pix2pix/results/ct_hist_test_preproc/ ./Downloads/test2
+
+C:\Users\olive>scp -r ds211007@ssh.nwt.fhstp.ac.at:~/Downloads/test2 ./Downloads/test2
