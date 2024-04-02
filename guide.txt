@@ -26,3 +26,11 @@ für SSH kopieren:
 ds211007@pc01:~$ scp -r ds211007@pc04.fry.lab:~/Desktop/pytorch-CycleGAN-and-pix2pix/results/ct_hist_test_preproc/ ./Downloads/test2
 
 C:\Users\olive>scp -r ds211007@ssh.nwt.fhstp.ac.at:~/Downloads/test2 ./Downloads/test2
+
+
+Server:
+python3 train.py --dataroot ./datasets/ct_hist_scans_preproc --name ct_hist_server --model cycle_gan --gpu_ids 0 --display_id 1
+
+cp ./checkpoints/ct_hist_server/latest_net_G_A.pth ./checkpoints/ct_hist_server/latest_net_G.pth
+
+python3 test.py --dataroot ./datasets/ct_hist_scans_preproc --name ct_hist_server --model test --no_dropout --gpu_ids 1
