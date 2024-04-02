@@ -1,0 +1,23 @@
+alter in paired Data: 18.5
+    am besten Verteilen daher herum
+
+wlz Format = 3D und low Res -> nicht verwenden
+
+
+low res weil zu klein
+
+die neuen Daten sind auch ungefähr so alt 
+
+
+terminal multiplexa
+
+tmux
+
+bender lab probieren
+und dann direkt damit verbinden
+
+
+neue Scans werden erfragt, 
+TS18,19,17 herunterladen
+
+von 13 bis 20
