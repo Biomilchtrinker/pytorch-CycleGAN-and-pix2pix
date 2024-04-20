@@ -34,3 +34,10 @@ python3 train.py --dataroot ./datasets/ct_hist_scans_preproc --name ct_hist_serv
 cp ./checkpoints/ct_hist_server/latest_net_G_A.pth ./checkpoints/ct_hist_server/latest_net_G.pth
 
 python3 test.py --dataroot ./datasets/ct_hist_scans_preproc --name ct_hist_server --model test --no_dropout --gpu_ids 1
+
+New Dataset:
+python3 train.py --dataroot ./datasets/new_dataset_90kV --name new_dataset_90kV --model cycle_gan --gpu_ids 0 --display_id 1 
+
+cp ./checkpoints/new_dataset_90kV/latest_net_G_A.pth ./checkpoints/new_dataset_90kV/latest_net_G.pth
+
+python3 test.py --dataroot ./datasets/new_dataset_90kV --name new_dataset_90kV --model test --no_dropout --gpu_ids 1
