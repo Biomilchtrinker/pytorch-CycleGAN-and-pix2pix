@@ -41,3 +41,6 @@ python3 train.py --dataroot ./datasets/new_dataset_90kV --name new_dataset_90kV 
 cp ./checkpoints/new_dataset_90kV/latest_net_G_A.pth ./checkpoints/new_dataset_90kV/latest_net_G.pth
 
 python3 test.py --dataroot ./datasets/new_dataset_90kV --name new_dataset_90kV --model test --no_dropout --gpu_ids 1
+
+ds211007@pc01:~$ scp -r ds211007@pc09.fry.lab:~/pytorch-CycleGAN-and-pix2pix/results/new_dataset_90kV/ ./Downloads/new_dataset_90kV
+C:\Users\olive>scp -r ds211007@ssh.nwt.fhstp.ac.at:~/Downloads/new_dataset_90kV ./Downloads/new_dataset_90kV
