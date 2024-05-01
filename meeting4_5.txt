@@ -1,0 +1,25 @@
+Daten auf FH Rechner:
+	mit wget -r -np "https://nextcloud....." downloaden
+	unzip
+
+Yoda dauert noch
+
+Maschine von Tobias mit 3060
+
+Neuer Run mit Default Bildern
+
+Sichtung von Experten ist möglich
+	Wir fahren zum Institut
+	Fragebogen
+		Expertise zu Histologischen Scans
+		
+
+Farbe wichtig bei Histologischen Scans
+
+bei prerequisites das buch eher zitieren anstatt die chapter
+
+ok habs sicherheitshalber nochmal durchgespielt mit dem Download der Bilder:
+wget -r -np -O download.zip "https://nextcloud.nwt.fhstp.ac.at/s/fzcZBkxxDDtFKgi/download"
+dann hast du sie als download.zip runtergeladen, dann kannst du sie einfach mit 
+unzip download.zip 
+entpacken 
