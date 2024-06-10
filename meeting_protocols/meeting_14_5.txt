@@ -1,0 +1,48 @@
+Bachelorarbeit
+	advisor muss er nachfragen
+	Zitierstil auf APA geändert
+		dann autocite (immer klammer)
+		sonst textcite
+		nie normales cite
+
+Prerequisites 
+	mehr zu GAN und Cycle-GAN
+		2 Losses 
+			Formeln zentrieren
+			siehe overleaf
+			mit \eqref{} referenzieren
+			align* wenn man keine referenz will
+			Formeln in den Satz einbauen
+				zB Diskriminater wird der Loss "FORMEL" betrachtet. 
+				Satzzeichen wenn Formel aus ist
+			detexify für Symbole zum erkennen 
+		Schematische Architektur für beides reingeben 
+		bei GAN 2 Netze, diesen Loss für Netz 1, den Loss für Netz 2
+		CycleGAN:
+			wir haben zusätzlich den consistency
+			Formel für den neuen Loss
+			deshalb kann man erwarten dass es funktioniert
+		auf Formeln eingehen
+		auch Bilder für zB Cycle-GAN
+
+Related Work
+	In der Einleitung schon schreiben "in this section we present the findings of Xin et al and Shen 
+	In der Einleitung, man hat surveys angeschaut und das ist in 3.1
+	
+Methodology
+	eher mathematisch oberflächlicher was wurde gemacht
+	in experiments dann in implementierungen
+	4.1.1 & 4.1.2
+	eher in setup mit 2 unterpunkten
+
+   Preprocessing
+	eher das bild und dann noch mit schematischen Pfeilen dazu
+	dann noch fließtext 
+	using the openCV Library weglassen
+	Otsu's thresholding mit Zitat in Fußnote was es ist
+
+   Model 
+	High Level Description hier rein
+	details dann ins experiment
+
+

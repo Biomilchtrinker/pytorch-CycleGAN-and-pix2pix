@@ -1,0 +1,31 @@
+Wie ist die neue Research Question?
+    Teil schon schreiben über kleineres Datenset und mit der schlechteren Qualität (siehe vorherige versuche)
+
+
+Soll ich diese List of Listings etc drinnen lassen?
+    Wenn nicht leer, drinnen lassen
+
+Passt neue Struktur?
+    Limitations in Discussion geben, in conclusion nochmal auflisten (fließtext)
+
+
+Welche informationen müssen in Hardware & Software Teil?
+    FH Rechner Hardware
+    Software
+        Git Repositories verweisen (siehe deren Anweisungen) + Packages
+        Kurz Struktur/Pipeline erklären mit jeden Schritt die Packages (siehe packgages ob paper oder package direkt zitieren)auflisten
+        in Fließtext
+        zB CycleGAN mit der PyTorch implementation
+
+
+
+Updates:
+    Keine Daten. Diese Woche kommen Daten
+    Paired Data Alternative überlegen
+        Paired Data Faken
+            Mit verschiedenen Bilddaten (zB mean average distance) das ähnlichste bild finden
+                zB image-similarity-measures Package
+                Pipeline: 1 CT Bild herausnehmen, alle Ähnlichkeitmetrics berechnen, dann die besten Metrics auswählen. Mit diesen Metrics dann 100 Pairs zu finden Das für ca 100 bilder machen und diese aus den Trainingsdaten herausnehmen (evtl Rescaling notwendig)
+            Image Registration (um Bilder übereinander zu legen)
+
+

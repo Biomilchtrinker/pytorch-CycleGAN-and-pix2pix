@@ -1,0 +1,71 @@
+Bilder richtig beschrieben?
+	bildunterschrift short titles verwenden
+Formeln abgleichen für gleiche Variablen?
+	passt so
+
+
+Antworten:
+Produkte zitieren: zB Skyscan (NEIN)
+
+Daten publishen: muss erst nachgefragt werden
+
+Quelle der Daten: bekomme von ihm einen Link
+
+Muss reinschreiben:
+	Standard Satz für Animal Cruelty am Ende reingeben
+
+Neues Layout:
+	Introduction
+		roten Faden setzen
+		was wird passieren in den folgenden Kapiteln
+	Prerequisites
+	Related Work
+	Methodology & Approach wird zu "Methodology"
+		zuerst beschreiben was getan wurde
+	results
+		darin loss graphen, beispiele, trianingsdaten
+		evaluierung
+		discussion von results und was man darauß schließen kann
+		limitations
+	Conclusion
+		roten faden abschließen
+		was wurde gemacht
+		was ist das große Takeaway/Ergebnisse
+		limitations
+		Future Work
+
+Paired Data: in den nächsten Wochen
+
+CT-Scans: Nächste Woche
+
+Teilfragen von Forschungsfrage bekommen
+	eventuell Unpaired weglassen und dann das als Folgefrage
+
+Setup von Paired Data Evaluierung schon aufsetzen
+
+
+2.3 The importance of Mouse embryos titel ändern
+	Theiler Stages Acronym ausbessern auf Mehrzahl bei 2.3
+
+
+2.5 Figure 2.1 noch mehr paraphrasen
+
+
+4. Methodology introduction noch genauer halten
+	Outline preprocessing, etc.. 
+
+
+4.1 Preprocessing
+	unterpunkte 1a, 2a/2b als text formulieren
+	Figure Updaten 
+
+
+TODO Notes verwenden
+
+
+ToDo:
+	Paired Data Evaluation programmieren vorbereiten
+	Paired Data Evaluation schon schreiben
+	Aufbau von paper abändern siehe oben
+
+
