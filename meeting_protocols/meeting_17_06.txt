@@ -1,0 +1,19 @@
+Neuer Code für fake paired data
+
+    padding schwarz für kurze Seite damit quadratisch
+    kann man das optimieren?
+    20 Paired data  -> selbst auwählen von besten ergebnissen
+    von 50CTs berechnen und dann auswählen
+
+    weiße fürs erste rauslasse n(wenn nicht so viele)
+
+Neuer Text für Evaluierung
+    Mathematische Formeln für kenngrößen? Ja
+    In diesem Teil auch die Kenngrößen erklären? ja passt
+    Darf ich sachen nennen die ich sicher nicht mache (zB Experteninterviews) ja darf man
+    Noch genauer Schreiben es ging sich nicht aus -> deswegen prozess um synthetisierte Paired Data zu bekommen -> diesen beschreiben
+
+Die 2 Sätze:
+animal cruelty satz unter ethics kapitel (bekomme noch infos)
+
+anderen ssatz wo die Daten herkommen
